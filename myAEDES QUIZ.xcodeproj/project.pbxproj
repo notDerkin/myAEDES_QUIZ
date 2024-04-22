@@ -14,6 +14,11 @@
 		5855858B2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855858A2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift */; };
 		585585952BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585942BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift */; };
 		585585972BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585962BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift */; };
+		585585B12BD6AC4100A3D4A9 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585B02BD6AC4100A3D4A9 /* MainMenuView.swift */; };
+		585585B32BD6ACE900A3D4A9 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585B22BD6ACE900A3D4A9 /* QuizView.swift */; };
+		585585B62BD6AE8900A3D4A9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585B52BD6AE8900A3D4A9 /* Question.swift */; };
+		585585B92BD6AED200A3D4A9 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585B82BD6AED200A3D4A9 /* QuestionViewModel.swift */; };
+		585585BC2BD6B2AC00A3D4A9 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585BB2BD6B2AC00A3D4A9 /* Styling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		585585902BD69F1B00A3D4A9 /* myAEDES QUIZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myAEDES QUIZUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585585942BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZUITests.swift; sourceTree = "<group>"; };
 		585585962BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		585585B02BD6AC4100A3D4A9 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		585585B22BD6ACE900A3D4A9 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		585585B52BD6AE8900A3D4A9 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		585585B82BD6AED200A3D4A9 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		585585BB2BD6B2AC00A3D4A9 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				585585792BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift */,
-				5855857B2BD69F1900A3D4A9 /* ContentView.swift */,
 				5855857D2BD69F1A00A3D4A9 /* Assets.xcassets */,
 				5855857F2BD69F1A00A3D4A9 /* Preview Content */,
+				585585B72BD6AE8D00A3D4A9 /* Model */,
+				585585B42BD6ACEF00A3D4A9 /* View */,
+				585585BA2BD6AEDA00A3D4A9 /* ViewModel */,
 			);
 			path = "myAEDES QUIZ";
 			sourceTree = "<group>";
@@ -125,6 +137,33 @@
 				585585962BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift */,
 			);
 			path = "myAEDES QUIZUITests";
+			sourceTree = "<group>";
+		};
+		585585B42BD6ACEF00A3D4A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5855857B2BD69F1900A3D4A9 /* ContentView.swift */,
+				585585B02BD6AC4100A3D4A9 /* MainMenuView.swift */,
+				585585B22BD6ACE900A3D4A9 /* QuizView.swift */,
+				585585BB2BD6B2AC00A3D4A9 /* Styling.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		585585B72BD6AE8D00A3D4A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				585585B52BD6AE8900A3D4A9 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		585585BA2BD6AEDA00A3D4A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				585585B82BD6AED200A3D4A9 /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585585B62BD6AE8900A3D4A9 /* Question.swift in Sources */,
+				585585B12BD6AC4100A3D4A9 /* MainMenuView.swift in Sources */,
+				585585BC2BD6B2AC00A3D4A9 /* Styling.swift in Sources */,
+				585585B32BD6ACE900A3D4A9 /* QuizView.swift in Sources */,
 				5855857C2BD69F1900A3D4A9 /* ContentView.swift in Sources */,
+				585585B92BD6AED200A3D4A9 /* QuestionViewModel.swift in Sources */,
 				5855857A2BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

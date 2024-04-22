@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension Color {
+    static let backgroundColor = Color("backgroundColor")
+}
+
+let screenWidth = UIScreen.main.bounds.width

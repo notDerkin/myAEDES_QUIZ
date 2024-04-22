@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct myAEDES_QUIZApp: App {
+    @StateObject var questionViewModel = QuestionViewModel.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenuView().environmentObject(questionViewModel)
         }
     }
 }
