@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5855857A2BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585792BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift */; };
+		5855857C2BD69F1900A3D4A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855857B2BD69F1900A3D4A9 /* ContentView.swift */; };
+		5855857E2BD69F1A00A3D4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5855857D2BD69F1A00A3D4A9 /* Assets.xcassets */; };
+		585585812BD69F1A00A3D4A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585585802BD69F1A00A3D4A9 /* Preview Assets.xcassets */; };
+		5855858B2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855858A2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift */; };
+		585585952BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585942BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift */; };
+		585585972BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585962BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585585872BD69F1A00A3D4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5855856E2BD69F1800A3D4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585585752BD69F1900A3D4A9;
+			remoteInfo = "myAEDES QUIZ";
+		};
+		585585912BD69F1B00A3D4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5855856E2BD69F1800A3D4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585585752BD69F1900A3D4A9;
+			remoteInfo = "myAEDES QUIZ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		585585762BD69F1900A3D4A9 /* myAEDES QUIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myAEDES QUIZ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585585792BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZApp.swift; sourceTree = "<group>"; };
+		5855857B2BD69F1900A3D4A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5855857D2BD69F1A00A3D4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585585802BD69F1A00A3D4A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		585585862BD69F1A00A3D4A9 /* myAEDES QUIZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myAEDES QUIZTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5855858A2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZTests.swift; sourceTree = "<group>"; };
+		585585902BD69F1B00A3D4A9 /* myAEDES QUIZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myAEDES QUIZUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585585942BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZUITests.swift; sourceTree = "<group>"; };
+		585585962BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585585732BD69F1900A3D4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585585832BD69F1A00A3D4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855858D2BD69F1B00A3D4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5855856D2BD69F1800A3D4A9 = {
+			isa = PBXGroup;
+			children = (
+				585585782BD69F1900A3D4A9 /* myAEDES QUIZ */,
+				585585892BD69F1A00A3D4A9 /* myAEDES QUIZTests */,
+				585585932BD69F1B00A3D4A9 /* myAEDES QUIZUITests */,
+				585585772BD69F1900A3D4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585585772BD69F1900A3D4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585585762BD69F1900A3D4A9 /* myAEDES QUIZ.app */,
+				585585862BD69F1A00A3D4A9 /* myAEDES QUIZTests.xctest */,
+				585585902BD69F1B00A3D4A9 /* myAEDES QUIZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585585782BD69F1900A3D4A9 /* myAEDES QUIZ */ = {
+			isa = PBXGroup;
+			children = (
+				585585792BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift */,
+				5855857B2BD69F1900A3D4A9 /* ContentView.swift */,
+				5855857D2BD69F1A00A3D4A9 /* Assets.xcassets */,
+				5855857F2BD69F1A00A3D4A9 /* Preview Content */,
+			);
+			path = "myAEDES QUIZ";
+			sourceTree = "<group>";
+		};
+		5855857F2BD69F1A00A3D4A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				585585802BD69F1A00A3D4A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		585585892BD69F1A00A3D4A9 /* myAEDES QUIZTests */ = {
+			isa = PBXGroup;
+			children = (
+				5855858A2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift */,
+			);
+			path = "myAEDES QUIZTests";
+			sourceTree = "<group>";
+		};
+		585585932BD69F1B00A3D4A9 /* myAEDES QUIZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585585942BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift */,
+				585585962BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift */,
+			);
+			path = "myAEDES QUIZUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585585752BD69F1900A3D4A9 /* myAEDES QUIZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855859A2BD69F1B00A3D4A9 /* Build configuration list for PBXNativeTarget "myAEDES QUIZ" */;
+			buildPhases = (
+				585585722BD69F1900A3D4A9 /* Sources */,
+				585585732BD69F1900A3D4A9 /* Frameworks */,
+				585585742BD69F1900A3D4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myAEDES QUIZ";
+			productName = "myAEDES QUIZ";
+			productReference = 585585762BD69F1900A3D4A9 /* myAEDES QUIZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585585852BD69F1A00A3D4A9 /* myAEDES QUIZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5855859D2BD69F1B00A3D4A9 /* Build configuration list for PBXNativeTarget "myAEDES QUIZTests" */;
+			buildPhases = (
+				585585822BD69F1A00A3D4A9 /* Sources */,
+				585585832BD69F1A00A3D4A9 /* Frameworks */,
+				585585842BD69F1A00A3D4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585585882BD69F1A00A3D4A9 /* PBXTargetDependency */,
+			);
+			name = "myAEDES QUIZTests";
+			productName = "myAEDES QUIZTests";
+			productReference = 585585862BD69F1A00A3D4A9 /* myAEDES QUIZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5855858F2BD69F1B00A3D4A9 /* myAEDES QUIZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585585A02BD69F1B00A3D4A9 /* Build configuration list for PBXNativeTarget "myAEDES QUIZUITests" */;
+			buildPhases = (
+				5855858C2BD69F1B00A3D4A9 /* Sources */,
+				5855858D2BD69F1B00A3D4A9 /* Frameworks */,
+				5855858E2BD69F1B00A3D4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585585922BD69F1B00A3D4A9 /* PBXTargetDependency */,
+			);
+			name = "myAEDES QUIZUITests";
+			productName = "myAEDES QUIZUITests";
+			productReference = 585585902BD69F1B00A3D4A9 /* myAEDES QUIZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5855856E2BD69F1800A3D4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					585585752BD69F1900A3D4A9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					585585852BD69F1A00A3D4A9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 585585752BD69F1900A3D4A9;
+					};
+					5855858F2BD69F1B00A3D4A9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 585585752BD69F1900A3D4A9;
+					};
+				};
+			};
+			buildConfigurationList = 585585712BD69F1800A3D4A9 /* Build configuration list for PBXProject "myAEDES QUIZ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5855856D2BD69F1800A3D4A9;
+			productRefGroup = 585585772BD69F1900A3D4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585585752BD69F1900A3D4A9 /* myAEDES QUIZ */,
+				585585852BD69F1A00A3D4A9 /* myAEDES QUIZTests */,
+				5855858F2BD69F1B00A3D4A9 /* myAEDES QUIZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585585742BD69F1900A3D4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585585812BD69F1A00A3D4A9 /* Preview Assets.xcassets in Resources */,
+				5855857E2BD69F1A00A3D4A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585585842BD69F1A00A3D4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855858E2BD69F1B00A3D4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585585722BD69F1900A3D4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855857C2BD69F1900A3D4A9 /* ContentView.swift in Sources */,
+				5855857A2BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585585822BD69F1A00A3D4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855858B2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5855858C2BD69F1B00A3D4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585585972BD69F1B00A3D4A9 /* myAEDES_QUIZUITestsLaunchTests.swift in Sources */,
+				585585952BD69F1B00A3D4A9 /* myAEDES_QUIZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585585882BD69F1A00A3D4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585585752BD69F1900A3D4A9 /* myAEDES QUIZ */;
+			targetProxy = 585585872BD69F1A00A3D4A9 /* PBXContainerItemProxy */;
+		};
+		585585922BD69F1B00A3D4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585585752BD69F1900A3D4A9 /* myAEDES QUIZ */;
+			targetProxy = 585585912BD69F1B00A3D4A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		585585982BD69F1B00A3D4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585585992BD69F1B00A3D4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5855859B2BD69F1B00A3D4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myAEDES QUIZ/Preview Content\"";
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raffaelesiciliano.myAEDES-QUIZ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5855859C2BD69F1B00A3D4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myAEDES QUIZ/Preview Content\"";
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raffaelesiciliano.myAEDES-QUIZ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5855859E2BD69F1B00A3D4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raffaelesiciliano.myAEDES-QUIZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myAEDES QUIZ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myAEDES QUIZ";
+			};
+			name = Debug;
+		};
+		5855859F2BD69F1B00A3D4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raffaelesiciliano.myAEDES-QUIZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myAEDES QUIZ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myAEDES QUIZ";
+			};
+			name = Release;
+		};
+		585585A12BD69F1B00A3D4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raffaelesiciliano.myAEDES-QUIZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "myAEDES QUIZ";
+			};
+			name = Debug;
+		};
+		585585A22BD69F1B00A3D4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raffaelesiciliano.myAEDES-QUIZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "myAEDES QUIZ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585585712BD69F1800A3D4A9 /* Build configuration list for PBXProject "myAEDES QUIZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585585982BD69F1B00A3D4A9 /* Debug */,
+				585585992BD69F1B00A3D4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855859A2BD69F1B00A3D4A9 /* Build configuration list for PBXNativeTarget "myAEDES QUIZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855859B2BD69F1B00A3D4A9 /* Debug */,
+				5855859C2BD69F1B00A3D4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5855859D2BD69F1B00A3D4A9 /* Build configuration list for PBXNativeTarget "myAEDES QUIZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5855859E2BD69F1B00A3D4A9 /* Debug */,
+				5855859F2BD69F1B00A3D4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585585A02BD69F1B00A3D4A9 /* Build configuration list for PBXNativeTarget "myAEDES QUIZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585585A12BD69F1B00A3D4A9 /* Debug */,
+				585585A22BD69F1B00A3D4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5855856E2BD69F1800A3D4A9 /* Project object */;
+}
