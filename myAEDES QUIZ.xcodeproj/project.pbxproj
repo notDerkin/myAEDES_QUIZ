@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5855857A2BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585585792BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift */; };
-		5855857C2BD69F1900A3D4A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855857B2BD69F1900A3D4A9 /* ContentView.swift */; };
 		5855857E2BD69F1A00A3D4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5855857D2BD69F1A00A3D4A9 /* Assets.xcassets */; };
 		585585812BD69F1A00A3D4A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585585802BD69F1A00A3D4A9 /* Preview Assets.xcassets */; };
 		5855858B2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855858A2BD69F1A00A3D4A9 /* myAEDES_QUIZTests.swift */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		585585762BD69F1900A3D4A9 /* myAEDES QUIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myAEDES QUIZ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585585792BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAEDES_QUIZApp.swift; sourceTree = "<group>"; };
-		5855857B2BD69F1900A3D4A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5855857D2BD69F1A00A3D4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585585802BD69F1A00A3D4A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		585585862BD69F1A00A3D4A9 /* myAEDES QUIZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myAEDES QUIZTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,7 +140,6 @@
 		585585B42BD6ACEF00A3D4A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5855857B2BD69F1900A3D4A9 /* ContentView.swift */,
 				585585B02BD6AC4100A3D4A9 /* MainMenuView.swift */,
 				585585B22BD6ACE900A3D4A9 /* QuizView.swift */,
 				585585BB2BD6B2AC00A3D4A9 /* Styling.swift */,
@@ -300,7 +297,6 @@
 				585585B12BD6AC4100A3D4A9 /* MainMenuView.swift in Sources */,
 				585585BC2BD6B2AC00A3D4A9 /* Styling.swift in Sources */,
 				585585B32BD6ACE900A3D4A9 /* QuizView.swift in Sources */,
-				5855857C2BD69F1900A3D4A9 /* ContentView.swift in Sources */,
 				585585B92BD6AED200A3D4A9 /* QuestionViewModel.swift in Sources */,
 				5855857A2BD69F1900A3D4A9 /* myAEDES_QUIZApp.swift in Sources */,
 			);

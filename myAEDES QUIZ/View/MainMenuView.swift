@@ -20,26 +20,30 @@ struct MainMenuView: View {
                 Image("logo_myaedes")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200)
+                    .frame(width: 280)
                  
                 // Highscore
-                if questionViewModel.highscore != 0 {
                     VStack {
                         Text("Highscore")
                         Text("\(questionViewModel.highscore) punti")
                     }
+                    .fontWeight(.bold)
                     .foregroundStyle(Color.white)
-                }
+                    .padding(.bottom, 50)
+                
                 Button {
                     showQuiz.toggle()
                 } label: {
                     Text("START")
+                        .frame(maxWidth: screenWidth)
                         .foregroundStyle(Color.white)
+                        .padding(.horizontal, 20)
                 }
                 .buttonStyle(.borderedProminent)
                    .tint(.cyan)
-                   .frame(width: screenWidth)
+                   
             }
+            .padding()
         }
         .fullScreenCover(isPresented: $showQuiz, content: {
             QuizView(showQuiz: $showQuiz)

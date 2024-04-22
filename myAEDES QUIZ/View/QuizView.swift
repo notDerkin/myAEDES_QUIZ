@@ -51,30 +51,36 @@ struct QuizView: View {
                 .frame(width: screenWidth, height: 40)
                 Spacer()
             }
+            
             VStack {
                 // Area Domanda
                 ZStack {
-                    Rectangle()
-                        .foregroundStyle(Color.white)
+                        Color.white
                     VStack {
                         Text("\(questionViewModel.questions[questionNumber].points) Punti")
+                            .padding(.top, 15)
                             .foregroundStyle(Color.green)
                         Image(questionViewModel.questions[questionNumber].image)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 300)
                         HStack {
                             Text(questionViewModel.questions[questionNumber].questionText)
                             Spacer()
                         }
                         .padding(.horizontal, 25)
+                        .padding(.bottom, 15)
                     }
                 }
-                .frame(width: screenWidth, height: 300)
-                .padding(.horizontal, 15)
+                .frame(width: screenWidth-25, height: 320)
+                .padding(.horizontal, 25)
+                .padding(.bottom, 50)
                 
                 // Risposte
                 VStack {
                     ForEach(questionViewModel.questions[questionNumber].answers, id: \.self) { answer in
                         Button {if
-                            questionViewModel.isAnswerCorrect(questionViewModel.questions[questionNumber], selectedAnswer: answer.text) {
+                            questionViewModel.isAnswerCorrect(question: questionViewModel.questions[questionNumber], selectedAnswer: answer.text) {
                             actualScore += questionViewModel.questions[questionNumber].points
                             changeQuestion()
                         } else {
@@ -83,19 +89,22 @@ struct QuizView: View {
                         }
                         } label: {
                             Text(answer.text)
+                                .frame(maxWidth: screenWidth)
                                 .foregroundStyle(Color.black)
                         }
-                        .frame(width: screenWidth)
                         .buttonStyle(.borderedProminent)
                         .tint(answer.buttonColor)
                     }
                     
                 }
-                .padding(.horizontal, 15)
+                .padding(.horizontal, 25)
             }
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("Risposta errata!"), message: Text("La risposta corretta era '\(questionViewModel.questions[questionNumber].correctAnswer)'."), dismissButton: .default(Text("Ok")))
                     }
+        }
+        .onChange(of: questionNumber) {
+            showAlert = false
         }
     }
 }
